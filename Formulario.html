@@ -19,9 +19,11 @@
 		<header>
 			<h1>Nome do Torneio</h1>
 		</header>
-		<main>
+		<main class="form-page">
  			 <section class="vertical-menu">
 				<ul>
+				<img class="d-block w-100" src="img/mobile-phone-icon.jpg" alt="logo" id="img_logo">	
+				<br>
 					<li>
 						<a href="#">
 							Link 1
@@ -62,35 +64,100 @@
 			<section>
 				<form class="meio" name="form-inscricao" action="cadastrar.html" method="GET">
 
-					<fieldset>
+					<br>
 
-						<legend>Formulario de Cadastro</legend>
+					<fieldset class="ScrollingBar">
+
+						<legend class="title-form">Formulário de Inscrição</legend>
 
 						<label for="id-nome">Nome Completo: </label>
 						
 						<input type="text" name="nome" id="id-nome" autofocus>
 
+						<br>
+
 						<label for="endereco">Endereço: </label>
 
-						<input type="adress" name="endereco" id="endereco">
+						<input type="adress" name="endereco" id="endereco" placeholder="Rua e Bairro">
+
+						<br>
+
+						<label for="cidade">Cidade: </label>
+
+						<input list="local" name="cidade">
+						<datalist id="local">
+							<option value="Porto Alegre">
+							<option value="Caxias do Sul">
+							<option value="Canoas">
+							<option value="Pelotas">
+							<option value="Santa Maria">
+							<option value="Gravataí">
+							<option value="Novo Hamburgo">
+							<option value="Viamão">
+							<option value="São Leopoldo">
+							<option value="Passo Fundo">
+							<option value="Alvorada">
+							<option value="Cachoeirinha">
+							<option value="Santa Cruz do Sul">
+							<option value="Sapucaia do Sul">
+							<option value="Bento Gonçalves">
+							<option value="Bagé">
+							<option value="Uruguaiana">
+							<option value="Erechim">
+						</datalist>
+
+						<br>
+
+						<label for="cpf">Identidade/CPF: </label>
+						<input type="id" name="cpf" id="cpf" placeholder="sem pontuação ou traços">
+
+						<br>
 
 						<label for="email">Informe seu e-mail: </label>
 						<input type="email" name="email" id="email" placeholder="usuario@mail.com">
-						
-						<label for="idade">Informe sua idade: </label>
-						<input type="number" name="idade" id="idade" min="20" max="60" step="10">
 
-						<label for="cel">Numero de contato: </label>
+						<br>
+
+						<label for="cel">Número de Telefone: </label>
 						<input type="tel" name="cel" id="cel" placeholder="+55 (51) 00000-0000">
+
+						<br>
 
 						<label for="data">Data de nacismento: </label>
 						<input type="date" name="data" id="data" min="1950-01-01" max="2004-01-01">
+
+						<br>
+
+						<legend class="legendinha">Caso seja menor de 18 anos, infomar dados dos pais/guardiões: </legend>
+
+						<label for="id-nome">Nome: </label>
+						
+						<input type="text" name="nome" id="id-nome">
+
+						<br>
+
+						<label for="cel">Telefone: </label>
+						<input type="tel" name="cel" id="cel" placeholder="+55 (51) 00000-0000">
+
+						<br>
+						
+						<label for="cpf">Identidade/CPF: </label>
+						<input type="id" name="cpf" id="cpf" placeholder="sem pontuação ou traços">
+
+						<br>
+
+						<input type="submit" name="btn-enviar">
 					</fieldset>
 
 			</section>
 
 
 			<aside class="colapsar">
+
+				<br>
+
+				<legend class="title-faq">Perguntas Frequentes: </legend>
+				<br>
 
 				<div class="accordion" id="myAccordion">
 				    <div class="panel">
@@ -101,6 +168,7 @@
 				            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 				        </div>
 				    </div>
+				    <br>
 				    <div class="panel">
 				        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#collapsible-2" data-parent="#myAccordion">
 				        	Question 2?
@@ -109,6 +177,7 @@
 				            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 				        </div>
 				    </div>
+				    <br>
 				    <div class="panel">
 				        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#collapsible-3" data-parent="#myAccordion">
 				        	Question 3?
@@ -117,18 +186,42 @@
 				           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 				        </div>
 				    </div>
+				    <br>
+				    <div class="panel">
+				        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#collapsible-4" data-parent="#myAccordion">
+				        	Question 4?
+				        </button>
+				        <div id="collapsible-4" class="collapse">
+				           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+				        </div>
+				    </div>
+				    <br>
+				    <div class="panel">
+				        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#collapsible-5" data-parent="#myAccordion">
+				        	Question 5?
+				        </button>
+				        <div id="collapsible-5" class="collapse">
+				           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+				        </div>
+				    </div>
 				</div>
+
+<!-- 				<span>Envie sua pergunta: <br></span>
+				<textarea name="obs" cols="10" rows="3" minlength="5" maxlength="30"></textarea> -->
 
 			</aside>
 
 
 		</main>
 
-		<footer>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-			</p>
-		</footer>
+		<div>
+
+			<footer>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				</p>
+			</footer>	
+		</div>
 
 	</div>
 	<!-- importacao das bibliotecas para usar o boots -->

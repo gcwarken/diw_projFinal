@@ -2,62 +2,62 @@
 html, body{
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 16px;
-}
-.container{
-	background-color: #c0c0c0;
-	min-width: 600px;
-	max-width: 900px;
-	margin: 0 auto;
+	margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 header{
-	background-color: #573258;
+	background-color: #000000;
 	height: 105px;
 	text-align: center;
 }
 
 header h1{
-	color: #FFF;
+	color: #f2f2f2;
 	padding: 10px 0;
-}
-
-figure{
-	width: 35%;
-	height: 200px;
-	background-color: #573258;
-	margin: 25px 20px;
 	float: left;
+	font-family: League Spartan;
+	font-size: 60px;
 }
 
 main{
-	background-color: green;
 	height: 500px;
+}
+
+.form-page{
+	background-color: #f2f2f2;
+	padding-bottom: 2.5rem;
+}
+
+input, span{
+	display: block;
 }
 
 iframe{
 	width: 100%;
 }
 
-footer{
-	background-color: darkred;
-	height: 75px;
+/*Pagina do Formulario*/
+
+.container{
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	position: relative;
 }
 
-footer p{
-	text-align: right;
-	padding-top: 20px;
-	margin-right: 15px;
-}
-
-
-input, span{
-	display: block;
+#img_logo{
+	width: 100px;
+	height: 150px;
 }
 
 .vertical-menu ul {
   list-style-type: none;
   margin: 0;
-  background-color: darkblue;
+  background-color: #400101;
   padding: 0;
   width: 200px;
   float: left;
@@ -66,51 +66,138 @@ input, span{
 .vertical-menu li a {
   display: block;
   color: #000;
-  background-color: whitesmoke;
-  padding: 20px 40px;
+  background-color: #a60807;
+  padding: 10px 40px;
   text-decoration: none;
 }
 
 /* Change the link color on hover */
 .vertical-menu li a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
-  color: white;
+  background-color: #f20c0c; /* Dark grey background on mouse-over */
+  color: black;
 }
 
 .meio{
 	display: inline-block;
-	border: 2px solid black;
 	height: 500px;
-	width: 45%;
-	background-color: lightpink;
+	width: 40%;
+	background-color: #f2f2f2;
 	float: left;
 }
 
-.cards-influ{
-	height: 100%;
-	width: 57%;
-	float: right;
-	background-color: darkorange
+.legendinha{
+	font-size: 19px;
+}
+
+.ScrollingBar{
+    height:500px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.title-form{
+
+	background: #400101;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 310px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+
 }
 
 .colapsar{
 	height: 100%;
-	width: 32%;
+	width: 44%;
 	float: right;
-	background-color: darkorange
+	background-color: #f2f2f2;
 }
 
 .accordion{
-	background-color: yellow;
+	background-color: #f2f2f2;
+	height:400px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.btn-danger{
+	color: #f2f2f2;
+	background-color: #191210;
+	border-color: #a60807;
+}
+
+.title-faq{
+	background: #a60807;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 299px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+
+}
+
+
+/*Pagina de Informações sobre o Esporte e Top Melhores do Mundo*/
+
+.container-pag2{
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f25c78;
+	position: relative;
+}
+
+.artigos{
+	float: left;
+	width: 39%;
+	height: 100%;
+}
+
+.title-articles{
+	background: #400101;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 310px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+}
+
+.carroselzinho{
+	width: 40%;
+	height: 30%;
+	float: right;
+}
+
+#img_chess{
+	width: 500px;
+	height: 500px;
+}
+
+
+/*Pagina dos Influenciadores de Xadrez*/
+
+.container-pag3{
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #791b1a;
+	position: relative;
 }
 
 .title_influ{
-	display: inline-block;
-	border: 2px solid black;
-	height: 100px;
-	width: 20%;
-	background-color: darkred;
-	color: whitesmoke;
+	background: #400101;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 310px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+	float: right;
 }
 
 #cell{
@@ -119,6 +206,13 @@ input, span{
 	border-radius: 50%;
 	display: block;
 	margin: 50px auto;
+}
+
+.cards-influ{
+	height: 100%;
+	width: 57%;
+	float: right;
+	background-color: darkorange
 }
 
 .card-img-top{
@@ -138,20 +232,26 @@ input, span{
 	float: right;
 }
 
-.artigos{
+/*footer da pagina*/
+
+footer{
+    background-color: darkred; 
+    margin-top: auto;
+    padding: 20px 15px;
+    text-align: right;
+    color: white;
+}
+
+footer p{
+	text-align: right;
+	padding-top: 20px;
+	margin-right: 15px;
+}
+
+figure{
+	width: 35%;
+	height: 200px;
+	background-color: #573258;
+	margin: 25px 20px;
 	float: left;
-	width: 30%;
-	height: 100%;
-	background-color: lightseagreen;
-}
-
-.carroselzinho{
-	width: 47%;
-	height: 30%;
-	float: right;
-}
-
-#img_chess{
-	width: 500px;
-	height: 500px;
 }
