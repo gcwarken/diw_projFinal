@@ -181,12 +181,18 @@ iframe{
 /*Pagina dos Influenciadores de Xadrez*/
 
 .container-pag3{
-	min-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    min-height: 100vh;
+    background-color: #791b1a;
+	
+/*	min-width: 100%;
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #791b1a;
-	position: relative;
+	position: relative;*/
 }
 
 .title_influ{
@@ -236,10 +242,10 @@ iframe{
 
 footer{
     background-color: darkred; 
-    margin-top: auto;
-    padding: 20px 15px;
-    text-align: right;
-    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 footer p{
