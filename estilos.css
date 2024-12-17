@@ -1,0 +1,297 @@
+
+html, body{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
+	margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+	background-color: #000000;
+	height: 105px;
+	text-align: center;
+}
+
+header h1{
+	color: #f2f2f2;
+	padding: 10px 0;
+	float: left;
+	font-size: 60px;
+	padding-left: 20px;
+}
+
+main{
+	height: 500px;
+}
+
+.form-page{
+	background-color: #f2f2f2;
+	padding-bottom: 2.5rem;
+}
+
+input, span{
+	display: block;
+}
+
+/*Pagina do Formulario*/
+
+.container{
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+#img_logo{
+	width: 100px;
+	height: 200px;
+	border: 8px solid #400101;
+}
+
+.vertical-menu ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 15px;
+  background-color: #400101;
+  padding: 0;
+  width: 200px;
+  height: 100vh;
+  float: left;
+}
+
+.vertical-menu li a {
+  display: block;
+  color: #000;
+  background-color: #a60807;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  font-weight: bold;
+}
+
+.vertical-menu li a:hover {
+  background-color: #f20c0c;
+  color: black;
+}
+
+.meio{
+	display: inline-block;
+	height: 500px;
+	width: 40%;
+	background-color: #f2f2f2;
+	float: left;
+}
+
+.legendinha{
+	font-size: 19px;
+}
+
+.ScrollingBar{
+    height:600px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.title-form{
+	background: #400101;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 310px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+}
+
+.colapsar{
+	height: 100%;
+	width: 44%;
+	float: right;
+	background-color: #f2f2f2;
+}
+
+.accordion{
+	background-color: #f2f2f2;
+	height:600px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.btn-danger{
+	color: #f2f2f2;
+	background-color: #191210;
+	border-color: #a60807;
+}
+
+.title-faq{
+	background: #a60807;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 299px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+
+}
+
+
+/*Pagina de Informações sobre o Esporte e Top Melhores do Mundo*/
+
+.container-pag2{
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f25c78;
+	position: relative;
+}
+
+.artigos{
+	float: left;
+	width: 39%;
+	height: 100%;
+	margin-top: 15px;
+}
+
+.title-articles{
+	background: #400101;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 310px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+}
+
+.carroselzinho{
+	width: 40%;
+	height: 30%;
+	float: right;
+}
+
+#img_chess{
+    height: 700px;
+    width: auto;
+    object-fit: contain;
+}
+
+.carousel-caption {
+	font-weight: bold;
+	color: #f2f2f2;
+	background-color: #40010199;
+}
+
+
+/*Pagina dos Influenciadores de Xadrez*/
+
+.container-pag3{
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #791b1a;
+	position: relative;
+
+.title_influ{
+	background: #400101;
+	color: #f2f2f2;
+	padding: 0 20px;
+	width: 310px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+	float: left;
+}
+
+.section-logo-cell{
+	background: #791b1a;
+	padding: 0 20px;
+	padding-top: 150px;
+	width: 310px;
+	float: left;
+}
+
+#cell{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: 50px auto;
+}
+
+.cards-influ{
+	height: 100%;
+	width: 57%;
+	float: right;
+	background-color: #791b1a;
+}
+
+.card-img-top{
+	height: 200px;
+	width: 200px;
+}
+
+.card-title{
+	background-color: #400101;
+	padding: 0 20px;
+	width: 150px;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.list-group-item{
+	background-color: #f25c78;
+	color: #f1f1f1;
+}
+
+.card-link{
+	background-color: #f25c78;
+	color: #f1f1f1;
+}
+
+.card{
+	background-color: #f1f1f1;
+	width: 200px;
+	float: left;
+}
+
+.card2{
+	background-color: #f1f1f1;
+	width: 200px;
+	float: right;
+	margin-left: 130px;
+}
+
+.card3{
+	background-color: #f1f1f1;
+	width: 200px;
+	float: right;
+}
+
+/*footer da pagina*/
+
+footer {
+    background-color: #f25c78;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    text-align: right;
+    padding: 8px;
+    padding-right: 20px;
+    margin: 2px;
+}
+
+figure{
+	width: 35%;
+	height: 200px;
+	background-color: #573258;
+	margin: 25px 20px;
+	float: left;
+}
