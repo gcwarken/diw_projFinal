@@ -5,6 +5,8 @@ html, body{
     background-size: cover;
     background-position: center 0px;
     background-repeat: no-repeat;
+    min-width: 1500px;
+    min-height: 600px;
 }
 
 header {
