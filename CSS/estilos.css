@@ -25,15 +25,6 @@ main{
 	height: 500px;
 }
 
-.form-page{
-	background-color: #f2f2f2;
-	padding-bottom: 2.5rem;
-}
-
-input, span{
-	display: block;
-}
-
 #img_logo{
 	width: 100px;
 	height: 200px;
@@ -114,92 +105,6 @@ input, span{
 }
 
 
-/*Pagina dos Influenciadores de Xadrez*/
-
-.container-pag3{
-	min-width: 100%;
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #791b1a;
-	position: relative;
-}
-
-.title_influ{
-	background: #400101;
-	color: #f2f2f2;
-	padding: 0 20px;
-	width: 310px;
-	border-style: solid;
-	border-width: 5px;
-	border-color: #000000;
-	float: left;
-}
-
-.section-logo-cell{
-	background: #791b1a;
-	padding: 0 20px;
-	padding-top: 150px;
-	width: 310px;
-	float: left;
-}
-
-#cell{
-	height: 150px;
-	width: 150px;
-	border-radius: 50%;
-	display: block;
-	margin: 50px auto;
-}
-
-.cards-influ{
-	height: 100%;
-	width: 57%;
-	float: right;
-	background-color: #791b1a;
-}
-
-.card-img-top{
-	height: 200px;
-	width: 200px;
-}
-
-.card-title{
-	background-color: #400101;
-	padding: 0 20px;
-	width: 150px;
-	color: #f1f1f1;
-	font-weight: bold;
-}
-
-.list-group-item{
-	background-color: #f25c78;
-	color: #f1f1f1;
-}
-
-.card-link{
-	background-color: #f25c78;
-	color: #f1f1f1;
-}
-
-.card{
-	background-color: #f1f1f1;
-	width: 200px;
-	float: left;
-}
-
-.card2{
-	background-color: #f1f1f1;
-	width: 200px;
-	float: right;
-	margin-left: 130px;
-}
-
-.card3{
-	background-color: #f1f1f1;
-	width: 200px;
-	float: right;
-}
 
 /*footer da pagina*/
 

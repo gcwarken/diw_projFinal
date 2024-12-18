@@ -68,3 +68,12 @@
 	background-color: #f2f2f2;
 	padding-bottom: 2.5rem;
 }
+
+.form-page{
+	background-color: #f2f2f2;
+	padding-bottom: 2.5rem;
+}
+
+input, span{
+	display: block;
+}
