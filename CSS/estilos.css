@@ -67,6 +67,7 @@ input, span{
   color: #000;
   background-color: #a60807;
   padding: 10px 40px;
+  margin: 15px 8px;
   text-decoration: none;
   transition: background-color 0.5s;
   font-weight: bold;
@@ -123,6 +124,7 @@ input, span{
 	color: #f2f2f2;
 	background-color: #191210;
 	border-color: #a60807;
+	margin: 10px 0;
 }
 
 .title-faq{
@@ -152,7 +154,7 @@ input, span{
 	float: left;
 	width: 39%;
 	height: 100%;
-	margin-top: 15px;;
+	margin-top: 15px;
 }
 
 .title-articles{
@@ -187,18 +189,12 @@ input, span{
 /*Pagina dos Influenciadores de Xadrez*/
 
 .container-pag3{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-    min-height: 100vh;
-    background-color: #791b1a;
-	
-/*	min-width: 100%;
+	min-width: 100%;
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #791b1a;
-	position: relative;*/
+	position: relative;
 }
 
 .title_influ{
@@ -209,7 +205,15 @@ input, span{
 	border-style: solid;
 	border-width: 5px;
 	border-color: #000000;
-	float: right;
+	float: left;
+}
+
+.section-logo-cell{
+	background: #791b1a;
+	padding: 0 20px;
+	padding-top: 150px;
+	width: 310px;
+	float: left;
 }
 
 #cell{
@@ -224,7 +228,7 @@ input, span{
 	height: 100%;
 	width: 57%;
 	float: right;
-	background-color: darkorange
+	background-color: #791b1a;
 }
 
 .card-img-top{
@@ -232,14 +236,39 @@ input, span{
 	width: 200px;
 }
 
+.card-title{
+	background-color: #400101;
+	padding: 0 20px;
+	width: 150px;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.list-group-item{
+	background-color: #f25c78;
+	color: #f1f1f1;
+}
+
+.card-link{
+	background-color: #f25c78;
+	color: #f1f1f1;
+}
+
 .card{
-	background-color: yellow;
+	background-color: #f1f1f1;
 	width: 200px;
 	float: left;
 }
 
 .card2{
-	background-color: gold;
+	background-color: #f1f1f1;
+	width: 200px;
+	float: right;
+	margin-left: 130px;
+}
+
+.card3{
+	background-color: #f1f1f1;
 	width: 200px;
 	float: right;
 }
