@@ -20,7 +20,8 @@ header {
 #links {
     list-style-type: none;
     justify-content: space-between;
-    color: white;  
+    color: white;
+    font-weight: bold;
 }
 
 #links li {
