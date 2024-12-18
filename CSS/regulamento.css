@@ -1,0 +1,45 @@
+.container{
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	position: absolute;
+    z-index: -1;
+    padding-left: 220px;
+}
+
+.regulamento {
+    display: inline-block;
+    width: 40%;
+    background-color: #f2f2f2;
+    float: left;
+}
+
+.reg-title {
+    text-align: center;
+    font-size: 30px;
+    color: #400101;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.reg-subtitle {
+    text-align: left;
+    font-size: 25px;
+    color: #400101;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.secao-direita {
+    display: inline-block;
+    width: 50%;
+    background-color: #f2f2f2;
+    float: right;
+}
+
+#map {
+    width: 90%;
+    height: 600px;
+}
